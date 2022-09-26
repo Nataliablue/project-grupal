@@ -14,7 +14,9 @@
     <div class="tareatres">
         <h3>Tarea Finalizada</h3>
 <!--<input type="text" class="cajaTareaFinalizada" :value="tareaFinalizada"> -->
-        <select name="seleccionar" id="slcTareaFinalizada" :value="tareaFinalizada" ></select>
+        <select name="seleccionar" id="slcTareaFinalizada" :value="tareaFinalizada">
+            <option :value="null" disabled>Tareas Finalizadas</option>
+        </select>
     </div>
     </div>
 </template>
